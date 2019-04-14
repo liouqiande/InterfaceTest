@@ -1,0 +1,157 @@
+{
+  "uid" : "b8cd2f571a8225fb",
+  "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[5-\\u7814\\u53d1\\u90e8update-1-5]",
+  "fullName" : "testcase..Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[5-\\u7814\\u53d1\\u90e8update-1-5]",
+  "historyId" : "ad2d547ace29fbbde945e51c95995da1",
+  "time" : {
+    "start" : 1555236862955,
+    "stop" : 1555236863482,
+    "duration" : 527
+  },
+  "description" : "\n        这是更新部门信息的测试用例\n        :param id: 部门id\n        :param name: 部门名称\n        :param parentid: 父部门id\n        :param order: 在父部门中的次序值\n        :return: None\n        ",
+  "descriptionHtml" : "<pre><code>    这是更新部门信息的测试用例\n    :param id: 部门id\n    :param name: 部门名称\n    :param parentid: 父部门id\n    :param order: 在父部门中的次序值\n    :return: None\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取配置文件路径",
+      "time" : {
+        "start" : 1555236862956,
+        "stop" : 1555236862956,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取配置文件内容",
+      "time" : {
+        "start" : 1555236862956,
+        "stop" : 1555236862961,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "判断已经存在的yaml文件中的 access_token 是否有效",
+      "time" : {
+        "start" : 1555236862961,
+        "stop" : 1555236863148,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取更新部门信息请求参数",
+      "time" : {
+        "start" : 1555236863149,
+        "stop" : 1555236863149,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "发出更新部门信息的请求",
+      "time" : {
+        "start" : 1555236863150,
+        "stop" : 1555236863482,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8bebd9434b19c073",
+      "name" : "Captured log call",
+      "source" : "8bebd9434b19c073.txt",
+      "type" : "text/plain",
+      "size" : 1463
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试操作部门"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "macdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "更新部门信息"
+  }, {
+    "name" : "thread",
+    "value" : "46621-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[5-\\u7814\\u53d1\\u90e8update-1-5]"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8cd2f571a8225fb.json",
+  "parameterValues" : [ ]
+}

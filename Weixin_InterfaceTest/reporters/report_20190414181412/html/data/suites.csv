@@ -1,0 +1,113 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Apr 14 18:14:15 CST 2019","Sun Apr 14 18:14:19 CST 2019","3403","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u4ea7\u54c1\u90e8-1-4-4]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u4ea7\u54c1\u90e8-1-4-4]","
+        这是创建新部门的测试用例
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :param id: 部门id
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:28 CST 2019","Sun Apr 14 18:14:28 CST 2019","504","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[4]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[4]","
+        这是测试删除部门的测试用例
+        :param id: 部门id
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:28 CST 2019","Sun Apr 14 18:14:29 CST 2019","458","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[5]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[5]","
+        这是测试删除部门的测试用例
+        :param id: 部门id
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:23 CST 2019","Sun Apr 14 18:14:24 CST 2019","568","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[6-\u8d22\u52a1\u90e8update-1-6]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[6-\u8d22\u52a1\u90e8update-1-6]","
+        这是更新部门信息的测试用例
+        :param id: 部门id
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:27 CST 2019","Sun Apr 14 18:14:28 CST 2019","480","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[3]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[3]","
+        这是测试删除部门的测试用例
+        :param id: 部门id
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:29 CST 2019","Sun Apr 14 18:14:29 CST 2019","596","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[6]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[6]","
+        这是测试删除部门的测试用例
+        :param id: 部门id
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:25 CST 2019","Sun Apr 14 18:14:25 CST 2019","701","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[4]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[4]","
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:25 CST 2019","Sun Apr 14 18:14:26 CST 2019","783","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[5]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[5]","
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:21 CST 2019","Sun Apr 14 18:14:21 CST 2019","655","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u8d22\u52a1\u90e8-1-6-6]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u8d22\u52a1\u90e8-1-6-6]","
+        这是创建新部门的测试用例
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :param id: 部门id
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:29 CST 2019","Sun Apr 14 18:14:30 CST 2019","673","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_creat_member",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_creat_member",""
+"passed","Sun Apr 14 18:14:22 CST 2019","Sun Apr 14 18:14:22 CST 2019","568","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[4-\u4ea7\u54c1\u90e8update-1-4]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[4-\u4ea7\u54c1\u90e8update-1-4]","
+        这是更新部门信息的测试用例
+        :param id: 部门id
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:21 CST 2019","Sun Apr 14 18:14:22 CST 2019","640","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[3-\u6d4b\u8bd5\u90e8update-1-3]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[3-\u6d4b\u8bd5\u90e8update-1-3]","
+        这是更新部门信息的测试用例
+        :param id: 部门id
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:24 CST 2019","Sun Apr 14 18:14:25 CST 2019","496","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[3]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[3]","
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        "
+"failed","Sun Apr 14 18:14:30 CST 2019","Sun Apr 14 18:14:31 CST 2019","503","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_update_member",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_update_member",""
+"passed","Sun Apr 14 18:14:26 CST 2019","Sun Apr 14 18:14:27 CST 2019","1029","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[6]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[6]","
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:19 CST 2019","Sun Apr 14 18:14:21 CST 2019","1721","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u7814\u53d1\u90e8-1-5-5]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u7814\u53d1\u90e8-1-5-5]","
+        这是创建新部门的测试用例
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :param id: 部门id
+        :return: None
+        "
+"failed","Sun Apr 14 18:14:12 CST 2019","Sun Apr 14 18:14:15 CST 2019","3122","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u6d4b\u8bd5\u90e8-1-3-3]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u6d4b\u8bd5\u90e8-1-3-3]","
+        这是创建新部门的测试用例
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :param id: 部门id
+        :return: None
+        "
+"failed","Sun Apr 14 18:14:30 CST 2019","Sun Apr 14 18:14:30 CST 2019","447","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_read_member",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_read_member",""
+"passed","Sun Apr 14 18:14:22 CST 2019","Sun Apr 14 18:14:23 CST 2019","527","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[5-\u7814\u53d1\u90e8update-1-5]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[5-\u7814\u53d1\u90e8update-1-5]","
+        这是更新部门信息的测试用例
+        :param id: 部门id
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :return: None
+        "
+"passed","Sun Apr 14 18:14:24 CST 2019","Sun Apr 14 18:14:24 CST 2019","499","","testcase","","testcase",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[None]",".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[None]","
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        "

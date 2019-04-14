@@ -1,0 +1,165 @@
+{
+  "uid" : "1574d9eecd640b62",
+  "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u6d4b\\u8bd5\\u90e8-1-3-3]",
+  "fullName" : "testcase..Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u6d4b\\u8bd5\\u90e8-1-3-3]",
+  "historyId" : "6930a69d854803f2ef68684f0e287171",
+  "time" : {
+    "start" : 1555236852835,
+    "stop" : 1555236855957,
+    "duration" : 3122
+  },
+  "description" : "\n        这是创建新部门的测试用例\n        :param name: 部门名称\n        :param parentid: 父部门id\n        :param order: 在父部门中的次序值\n        :param id: 部门id\n        :return: None\n        ",
+  "descriptionHtml" : "<pre><code>    这是创建新部门的测试用例\n    :param name: 部门名称\n    :param parentid: 父部门id\n    :param order: 在父部门中的次序值\n    :param id: 部门id\n    :return: None\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'department e...query?e=60008' == 'created'\n  - department existed, hint: [1555236855_1_aa0b4334f322d367ed5208a09054ef25], more info at https://open.work.weixin.qq.com/devtool/query?e=60008\n  + created",
+  "statusTrace" : "self = <testcase.contacts.test_department.TestDepartment object at 0x110c316a0>\nname = '测试部', parentid = 1, order = 3, id = 3\n\n    @pytest.mark.parametrize(\"name, parentid, order, id\",\n                             [(\"测试部\", 1, 3, 3),\n                              (\"产品部\", 1, 4, 4),\n                              (\"研发部\", 1, 5, 5),\n                              (\"财务部\", 1, 6, 6)])\n    @allure.story(\"创建新部门\")\n    @pytest.mark.run(order=1)\n    def test_creat_depa(self,name,parentid,order,id):\n        '''\n            这是创建新部门的测试用例\n            :param name: 部门名称\n            :param parentid: 父部门id\n            :param order: 在父部门中的次序值\n            :param id: 部门id\n            :return: None\n            '''\n        depa_info = {\n            \"name\": name,\n            \"parentid\": parentid,\n            \"order\": order,\n            \"id\": id\n        }\n        logging.info(\"部门信息：\" + str(depa_info))\n        md = ManageDepartment()\n        md.creat_department(depa_info)\n        res = md.get_response()\n>       assert res.get(\"errmsg\") == \"created\"\nE       AssertionError: assert 'department e...query?e=60008' == 'created'\nE         - department existed, hint: [1555236855_1_aa0b4334f322d367ed5208a09054ef25], more info at https://open.work.weixin.qq.com/devtool/query?e=60008\nE         + created\n\ncontacts/test_department.py:39: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'department e...query?e=60008' == 'created'\n  - department existed, hint: [1555236855_1_aa0b4334f322d367ed5208a09054ef25], more info at https://open.work.weixin.qq.com/devtool/query?e=60008\n  + created",
+    "statusTrace" : "self = <testcase.contacts.test_department.TestDepartment object at 0x110c316a0>\nname = '测试部', parentid = 1, order = 3, id = 3\n\n    @pytest.mark.parametrize(\"name, parentid, order, id\",\n                             [(\"测试部\", 1, 3, 3),\n                              (\"产品部\", 1, 4, 4),\n                              (\"研发部\", 1, 5, 5),\n                              (\"财务部\", 1, 6, 6)])\n    @allure.story(\"创建新部门\")\n    @pytest.mark.run(order=1)\n    def test_creat_depa(self,name,parentid,order,id):\n        '''\n            这是创建新部门的测试用例\n            :param name: 部门名称\n            :param parentid: 父部门id\n            :param order: 在父部门中的次序值\n            :param id: 部门id\n            :return: None\n            '''\n        depa_info = {\n            \"name\": name,\n            \"parentid\": parentid,\n            \"order\": order,\n            \"id\": id\n        }\n        logging.info(\"部门信息：\" + str(depa_info))\n        md = ManageDepartment()\n        md.creat_department(depa_info)\n        res = md.get_response()\n>       assert res.get(\"errmsg\") == \"created\"\nE       AssertionError: assert 'department e...query?e=60008' == 'created'\nE         - department existed, hint: [1555236855_1_aa0b4334f322d367ed5208a09054ef25], more info at https://open.work.weixin.qq.com/devtool/query?e=60008\nE         + created\n\ncontacts/test_department.py:39: AssertionError",
+    "steps" : [ {
+      "name" : "获取配置文件路径",
+      "time" : {
+        "start" : 1555236852838,
+        "stop" : 1555236852838,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取配置文件内容",
+      "time" : {
+        "start" : 1555236852838,
+        "stop" : 1555236852843,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "判断已经存在的yaml文件中的 access_token 是否有效",
+      "time" : {
+        "start" : 1555236852843,
+        "stop" : 1555236854125,
+        "duration" : 1282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取创建新部门请求参数",
+      "time" : {
+        "start" : 1555236854126,
+        "stop" : 1555236854126,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "发出创建新部门的请求",
+      "time" : {
+        "start" : 1555236854126,
+        "stop" : 1555236855878,
+        "duration" : 1752
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fba5b6d34017f62c",
+      "name" : "Captured log call",
+      "source" : "fba5b6d34017f62c.txt",
+      "type" : "text/plain",
+      "size" : 1458
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试操作部门"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "macdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "创建新部门"
+  }, {
+    "name" : "thread",
+    "value" : "46621-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u6d4b\\u8bd5\\u90e8-1-3-3]"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1574d9eecd640b62.json",
+  "parameterValues" : [ ]
+}

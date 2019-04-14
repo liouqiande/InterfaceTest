@@ -1,0 +1,8 @@
+test_department.py          63 INFO     部门信息：{'id': 3, 'name': '测试部update', 'parentid': 1, 'order': 3}
+manage_department.py        14 INFO     Init department management API
+connectionpool.py          813 DEBUG    Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+connectionpool.py          393 DEBUG    https://qyapi.weixin.qq.com:443 "GET /cgi-bin/getcallbackip?access_token=f4QjoO2PiDL9VIykIMjcmT9XoHjI9OUnXT94zXT_6iahlcPKA_rCPHt0OZqPfshQM-rYyMMEr1IgpPBBIOpQWjxlCy5yVwgBxZhu_17KNASAknEPep9a190S4aylRFOvGu_MnkyH8f1LU5hI71oIkiCs-UphzheubPpG702rBkuOp9bRDSFaSHEIV3KtBO_5JTukOO-lzspiZOdkdQvHzA HTTP/1.1" 200 296
+manage_department.py        43 DEBUG    url:https://qyapi.weixin.qq.com/cgi-bin/department/update
+manage_department.py        44 DEBUG    params:{'access_token': 'f4QjoO2PiDL9VIykIMjcmT9XoHjI9OUnXT94zXT_6iahlcPKA_rCPHt0OZqPfshQM-rYyMMEr1IgpPBBIOpQWjxlCy5yVwgBxZhu_17KNASAknEPep9a190S4aylRFOvGu_MnkyH8f1LU5hI71oIkiCs-UphzheubPpG702rBkuOp9bRDSFaSHEIV3KtBO_5JTukOO-lzspiZOdkdQvHzA'}
+connectionpool.py          813 DEBUG    Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+connectionpool.py          393 DEBUG    https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=f4QjoO2PiDL9VIykIMjcmT9XoHjI9OUnXT94zXT_6iahlcPKA_rCPHt0OZqPfshQM-rYyMMEr1IgpPBBIOpQWjxlCy5yVwgBxZhu_17KNASAknEPep9a190S4aylRFOvGu_MnkyH8f1LU5hI71oIkiCs-UphzheubPpG702rBkuOp9bRDSFaSHEIV3KtBO_5JTukOO-lzspiZOdkdQvHzA HTTP/1.1" 200 32

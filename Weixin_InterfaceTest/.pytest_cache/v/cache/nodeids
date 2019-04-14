@@ -1,0 +1,22 @@
+[
+  "testcase/contacts/test_department.py::TestDepartment::()::test_creat_depa[\\u6d4b\\u8bd5\\u90e8-1-3-3]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_creat_depa[\\u4ea7\\u54c1\\u90e8-1-4-4]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_creat_depa[\\u7814\\u53d1\\u90e8-1-5-5]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_creat_depa[\\u8d22\\u52a1\\u90e8-1-6-6]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_update_depa[3-\\u6d4b\\u8bd5\\u90e8update-1-3]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_update_depa[4-\\u4ea7\\u54c1\\u90e8update-1-4]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_update_depa[5-\\u7814\\u53d1\\u90e8update-1-5]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_update_depa[6-\\u8d22\\u52a1\\u90e8update-1-6]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_get_depa_list[None]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_get_depa_list[3]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_get_depa_list[4]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_get_depa_list[5]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_get_depa_list[6]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_delete_depa[3]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_delete_depa[4]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_delete_depa[5]",
+  "testcase/contacts/test_department.py::TestDepartment::()::test_delete_depa[6]",
+  "testcase/contacts/test_member.py::TestDepartment::()::test_creat_member",
+  "testcase/contacts/test_member.py::TestDepartment::()::test_read_member",
+  "testcase/contacts/test_member.py::TestDepartment::()::test_update_member"
+]

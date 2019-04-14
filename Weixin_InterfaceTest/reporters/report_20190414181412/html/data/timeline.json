@@ -1,0 +1,253 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "macdeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "46621-MainThread",
+      "children" : [ {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u4ea7\\u54c1\\u90e8-1-4-4]",
+        "uid" : "eb8a90344e7ecf18",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236855959,
+          "stop" : 1555236859362,
+          "duration" : 3403
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[4]",
+        "uid" : "2a59b67cc851b9a6",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236868052,
+          "stop" : 1555236868556,
+          "duration" : 504
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[5]",
+        "uid" : "e282c3d3b22e3691",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236868558,
+          "stop" : 1555236869016,
+          "duration" : 458
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[6-\\u8d22\\u52a1\\u90e8update-1-6]",
+        "uid" : "50cdf914c988fa18",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236863484,
+          "stop" : 1555236864052,
+          "duration" : 568
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[3]",
+        "uid" : "f77600dfb7b5e4da",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236867571,
+          "stop" : 1555236868051,
+          "duration" : 480
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[6]",
+        "uid" : "4cd9f15b44545ff7",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236869017,
+          "stop" : 1555236869613,
+          "duration" : 596
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[4]",
+        "uid" : "c417e934a3f609b0",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236865052,
+          "stop" : 1555236865753,
+          "duration" : 701
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[5]",
+        "uid" : "111c3c8c2054b95a",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236865755,
+          "stop" : 1555236866538,
+          "duration" : 783
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u8d22\\u52a1\\u90e8-1-6-6]",
+        "uid" : "28e7031e9d216ab2",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236861086,
+          "stop" : 1555236861741,
+          "duration" : 655
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_creat_member",
+        "uid" : "9005253b6cdda34",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236869614,
+          "stop" : 1555236870287,
+          "duration" : 673
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[4-\\u4ea7\\u54c1\\u90e8update-1-4]",
+        "uid" : "49ba13fa78e4a446",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236862385,
+          "stop" : 1555236862953,
+          "duration" : 568
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[3-\\u6d4b\\u8bd5\\u90e8update-1-3]",
+        "uid" : "2dc9b929a14e1bd4",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236861743,
+          "stop" : 1555236862383,
+          "duration" : 640
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[3]",
+        "uid" : "b576b669a9242355",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236864555,
+          "stop" : 1555236865051,
+          "duration" : 496
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_update_member",
+        "uid" : "6516745e361d3c6f",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555236870738,
+          "stop" : 1555236871241,
+          "duration" : 503
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[6]",
+        "uid" : "94bcb7f96bd88ea",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236866540,
+          "stop" : 1555236867569,
+          "duration" : 1029
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u7814\\u53d1\\u90e8-1-5-5]",
+        "uid" : "e9091eabafe235e6",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236859364,
+          "stop" : 1555236861085,
+          "duration" : 1721
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u6d4b\\u8bd5\\u90e8-1-3-3]",
+        "uid" : "1574d9eecd640b62",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555236852835,
+          "stop" : 1555236855957,
+          "duration" : 3122
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_read_member",
+        "uid" : "4abbf1b7e060aab7",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555236870289,
+          "stop" : 1555236870736,
+          "duration" : 447
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[5-\\u7814\\u53d1\\u90e8update-1-5]",
+        "uid" : "b8cd2f571a8225fb",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236862955,
+          "stop" : 1555236863482,
+          "duration" : 527
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[None]",
+        "uid" : "b36765bd48e3c9e6",
+        "parentUid" : "d3fc1d2c53f02d24d7a1c018605eee6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555236864054,
+          "stop" : 1555236864553,
+          "duration" : 499
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3fc1d2c53f02d24d7a1c018605eee6b"
+    } ],
+    "uid" : "f3378b7997270fe59263dc40db1807e9"
+  } ]
+}

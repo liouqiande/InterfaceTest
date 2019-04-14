@@ -1,0 +1,1149 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1555236852835" stop="1555236871241">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1555236852835" status="failed" stop="1555236855957">
+      <description>
+        这是创建新部门的测试用例
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :param id: 部门id
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u6d4b\u8bd5\u90e8-1-3-3]</name>
+      <failure>
+        <message>AssertionError: assert 'department e...query?e=60008' == 'created'
+  - department existed, hint: [1555236855_1_aa0b4334f322d367ed5208a09054ef25], more info at https://open.work.weixin.qq.com/devtool/query?e=60008
+  + created</message>
+        <stack-trace>self = &lt;testcase.contacts.test_department.TestDepartment object at 0x110c316a0&gt;
+name = '测试部', parentid = 1, order = 3, id = 3
+
+    @pytest.mark.parametrize("name, parentid, order, id",
+                             [("测试部", 1, 3, 3),
+                              ("产品部", 1, 4, 4),
+                              ("研发部", 1, 5, 5),
+                              ("财务部", 1, 6, 6)])
+    @allure.story("创建新部门")
+    @pytest.mark.run(order=1)
+    def test_creat_depa(self,name,parentid,order,id):
+        '''
+            这是创建新部门的测试用例
+            :param name: 部门名称
+            :param parentid: 父部门id
+            :param order: 在父部门中的次序值
+            :param id: 部门id
+            :return: None
+            '''
+        depa_info = {
+            "name": name,
+            "parentid": parentid,
+            "order": order,
+            "id": id
+        }
+        logging.info("部门信息：" + str(depa_info))
+        md = ManageDepartment()
+        md.creat_department(depa_info)
+        res = md.get_response()
+&gt;       assert res.get("errmsg") == "created"
+E       AssertionError: assert 'department e...query?e=60008' == 'created'
+E         - department existed, hint: [1555236855_1_aa0b4334f322d367ed5208a09054ef25], more info at https://open.work.weixin.qq.com/devtool/query?e=60008
+E         + created
+
+contacts/test_department.py:39: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="84eaddc8-10d3-4e4e-b84e-33f1f13e6ec5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="创建新部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236852838" status="passed" stop="1555236852838">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236852838" status="passed" stop="1555236852843">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236852843" status="passed" stop="1555236854125">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236854126" status="passed" stop="1555236854126">
+          <name>获取创建新部门请求参数</name>
+          <title>获取创建新部门请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236854126" status="passed" stop="1555236855878">
+          <name>发出创建新部门的请求</name>
+          <title>发出创建新部门的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236855959" status="passed" stop="1555236859362">
+      <description>
+        这是创建新部门的测试用例
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :param id: 部门id
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u4ea7\u54c1\u90e8-1-4-4]</name>
+      <attachments>
+        <attachment source="78c34621-41e7-43e6-bc1a-724b1ed34941-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="创建新部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236855961" status="passed" stop="1555236855961">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236855961" status="passed" stop="1555236855965">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236855965" status="passed" stop="1555236857570">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236857571" status="passed" stop="1555236857571">
+          <name>获取创建新部门请求参数</name>
+          <title>获取创建新部门请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236857571" status="passed" stop="1555236859362">
+          <name>发出创建新部门的请求</name>
+          <title>发出创建新部门的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236859364" status="passed" stop="1555236861085">
+      <description>
+        这是创建新部门的测试用例
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :param id: 部门id
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u7814\u53d1\u90e8-1-5-5]</name>
+      <attachments>
+        <attachment source="36ff1b05-baf1-479b-859f-3393652f35cc-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="创建新部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236859365" status="passed" stop="1555236859365">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236859365" status="passed" stop="1555236859370">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236859370" status="passed" stop="1555236860137">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236860138" status="passed" stop="1555236860138">
+          <name>获取创建新部门请求参数</name>
+          <title>获取创建新部门请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236860139" status="passed" stop="1555236861084">
+          <name>发出创建新部门的请求</name>
+          <title>发出创建新部门的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236861086" status="passed" stop="1555236861741">
+      <description>
+        这是创建新部门的测试用例
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :param id: 部门id
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\u8d22\u52a1\u90e8-1-6-6]</name>
+      <attachments>
+        <attachment source="0ebff2d3-4ec1-4e44-ae03-78d5a44b1755-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="创建新部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236861088" status="passed" stop="1555236861088">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236861088" status="passed" stop="1555236861092">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236861093" status="passed" stop="1555236861331">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236861332" status="passed" stop="1555236861332">
+          <name>获取创建新部门请求参数</name>
+          <title>获取创建新部门请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236861332" status="passed" stop="1555236861741">
+          <name>发出创建新部门的请求</name>
+          <title>发出创建新部门的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236861743" status="passed" stop="1555236862383">
+      <description>
+        这是更新部门信息的测试用例
+        :param id: 部门id
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[3-\u6d4b\u8bd5\u90e8update-1-3]</name>
+      <attachments>
+        <attachment source="3e10593a-84ca-4505-beb8-68dde7fa5b12-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="更新部门信息"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236861745" status="passed" stop="1555236861745">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236861745" status="passed" stop="1555236861749">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236861749" status="passed" stop="1555236861909">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236861909" status="passed" stop="1555236861909">
+          <name>获取更新部门信息请求参数</name>
+          <title>获取更新部门信息请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236861910" status="passed" stop="1555236862383">
+          <name>发出更新部门信息的请求</name>
+          <title>发出更新部门信息的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236862385" status="passed" stop="1555236862953">
+      <description>
+        这是更新部门信息的测试用例
+        :param id: 部门id
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[4-\u4ea7\u54c1\u90e8update-1-4]</name>
+      <attachments>
+        <attachment source="12649649-72dc-4fef-b00f-eb853984ff62-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="更新部门信息"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236862386" status="passed" stop="1555236862387">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236862387" status="passed" stop="1555236862391">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236862391" status="passed" stop="1555236862554">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236862555" status="passed" stop="1555236862555">
+          <name>获取更新部门信息请求参数</name>
+          <title>获取更新部门信息请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236862556" status="passed" stop="1555236862953">
+          <name>发出更新部门信息的请求</name>
+          <title>发出更新部门信息的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236862955" status="passed" stop="1555236863482">
+      <description>
+        这是更新部门信息的测试用例
+        :param id: 部门id
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[5-\u7814\u53d1\u90e8update-1-5]</name>
+      <attachments>
+        <attachment source="34047fd3-8dbb-4073-978f-06af40240e3c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="更新部门信息"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236862956" status="passed" stop="1555236862956">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236862956" status="passed" stop="1555236862961">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236862961" status="passed" stop="1555236863148">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236863149" status="passed" stop="1555236863149">
+          <name>获取更新部门信息请求参数</name>
+          <title>获取更新部门信息请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236863150" status="passed" stop="1555236863482">
+          <name>发出更新部门信息的请求</name>
+          <title>发出更新部门信息的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236863484" status="passed" stop="1555236864052">
+      <description>
+        这是更新部门信息的测试用例
+        :param id: 部门id
+        :param name: 部门名称
+        :param parentid: 父部门id
+        :param order: 在父部门中的次序值
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_update_depa[6-\u8d22\u52a1\u90e8update-1-6]</name>
+      <attachments>
+        <attachment source="122fe3f5-8341-4004-9610-c9c191e08d06-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="更新部门信息"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236863485" status="passed" stop="1555236863485">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236863485" status="passed" stop="1555236863490">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236863490" status="passed" stop="1555236863738">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236863738" status="passed" stop="1555236863738">
+          <name>获取更新部门信息请求参数</name>
+          <title>获取更新部门信息请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236863739" status="passed" stop="1555236864052">
+          <name>发出更新部门信息的请求</name>
+          <title>发出更新部门信息的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236864054" status="passed" stop="1555236864553">
+      <description>
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[None]</name>
+      <attachments>
+        <attachment source="7d1e3a53-4571-42f4-844f-b4e01c9c097a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="查询部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236864055" status="passed" stop="1555236864055">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236864055" status="passed" stop="1555236864059">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236864059" status="passed" stop="1555236864253">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236864254" status="passed" stop="1555236864254">
+          <name>获取部门列表请求参数</name>
+          <title>获取部门列表请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236864254" status="passed" stop="1555236864553">
+          <name>发出查询部门列表的请求</name>
+          <title>发出查询部门列表的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236864555" status="passed" stop="1555236865051">
+      <description>
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[3]</name>
+      <attachments>
+        <attachment source="e5e4cf2d-d0a9-4019-a6d0-a47554291075-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="查询部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236864556" status="passed" stop="1555236864556">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236864556" status="passed" stop="1555236864560">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236864561" status="passed" stop="1555236864711">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236864712" status="passed" stop="1555236864712">
+          <name>获取部门列表请求参数</name>
+          <title>获取部门列表请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236864713" status="passed" stop="1555236865050">
+          <name>发出查询部门列表的请求</name>
+          <title>发出查询部门列表的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236865052" status="passed" stop="1555236865753">
+      <description>
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[4]</name>
+      <attachments>
+        <attachment source="3b81e4c5-f62b-4786-94a8-10614906aecc-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="查询部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236865054" status="passed" stop="1555236865054">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236865054" status="passed" stop="1555236865058">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236865058" status="passed" stop="1555236865412">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236865413" status="passed" stop="1555236865413">
+          <name>获取部门列表请求参数</name>
+          <title>获取部门列表请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236865414" status="passed" stop="1555236865753">
+          <name>发出查询部门列表的请求</name>
+          <title>发出查询部门列表的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236865755" status="passed" stop="1555236866538">
+      <description>
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[5]</name>
+      <attachments>
+        <attachment source="4c4c77a8-a528-4556-aec8-a86e77629651-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="查询部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236865756" status="passed" stop="1555236865756">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236865756" status="passed" stop="1555236865760">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236865761" status="passed" stop="1555236866104">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236866104" status="passed" stop="1555236866104">
+          <name>获取部门列表请求参数</name>
+          <title>获取部门列表请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236866105" status="passed" stop="1555236866538">
+          <name>发出查询部门列表的请求</name>
+          <title>发出查询部门列表的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236866540" status="passed" stop="1555236867569">
+      <description>
+        这是测试查询部门信息的测试用例
+        :param id: 部门id，不传时查询全部门信息
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_get_depa_list[6]</name>
+      <attachments>
+        <attachment source="0ccd181e-3f88-43a4-91aa-73d38ac26e3a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="查询部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236866541" status="passed" stop="1555236866541">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236866541" status="passed" stop="1555236866545">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236866545" status="passed" stop="1555236867330">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236867331" status="passed" stop="1555236867331">
+          <name>获取部门列表请求参数</name>
+          <title>获取部门列表请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236867331" status="passed" stop="1555236867569">
+          <name>发出查询部门列表的请求</name>
+          <title>发出查询部门列表的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236867571" status="passed" stop="1555236868051">
+      <description>
+        这是测试删除部门的测试用例
+        :param id: 部门id
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[3]</name>
+      <attachments>
+        <attachment source="9be44464-f333-4dc4-af9b-7ef45841c397-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="删除部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236867572" status="passed" stop="1555236867572">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236867572" status="passed" stop="1555236867576">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236867576" status="passed" stop="1555236867727">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236867728" status="passed" stop="1555236867728">
+          <name>获取删除部门请求参数</name>
+          <title>获取删除部门请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236867728" status="passed" stop="1555236868050">
+          <name>发出删除部门的请求</name>
+          <title>发出删除部门的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236868052" status="passed" stop="1555236868556">
+      <description>
+        这是测试删除部门的测试用例
+        :param id: 部门id
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[4]</name>
+      <attachments>
+        <attachment source="e8531cf9-5a4b-4955-a3c5-b516da78f7b4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="删除部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236868054" status="passed" stop="1555236868054">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236868054" status="passed" stop="1555236868058">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236868058" status="passed" stop="1555236868217">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236868218" status="passed" stop="1555236868218">
+          <name>获取删除部门请求参数</name>
+          <title>获取删除部门请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236868218" status="passed" stop="1555236868556">
+          <name>发出删除部门的请求</name>
+          <title>发出删除部门的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236868558" status="passed" stop="1555236869016">
+      <description>
+        这是测试删除部门的测试用例
+        :param id: 部门id
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[5]</name>
+      <attachments>
+        <attachment source="ec187c8f-b897-4b59-9239-a797114f3512-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="删除部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236868559" status="passed" stop="1555236868559">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236868559" status="passed" stop="1555236868564">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236868564" status="passed" stop="1555236868727">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236868728" status="passed" stop="1555236868728">
+          <name>获取删除部门请求参数</name>
+          <title>获取删除部门请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236868728" status="passed" stop="1555236869015">
+          <name>发出删除部门的请求</name>
+          <title>发出删除部门的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236869017" status="passed" stop="1555236869613">
+      <description>
+        这是测试删除部门的测试用例
+        :param id: 部门id
+        :return: None
+        </description>
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[6]</name>
+      <attachments>
+        <attachment source="f9011ef1-5cd8-47e7-970d-208fb883d43f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="删除部门"/>
+        <label name="feature" value="测试操作部门"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236869019" status="passed" stop="1555236869019">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236869019" status="passed" stop="1555236869023">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236869023" status="passed" stop="1555236869238">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236869239" status="passed" stop="1555236869239">
+          <name>获取删除部门请求参数</name>
+          <title>获取删除部门请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236869239" status="passed" stop="1555236869613">
+          <name>发出删除部门的请求</name>
+          <title>发出删除部门的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236869614" status="passed" stop="1555236870287">
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_creat_member</name>
+      <attachments>
+        <attachment source="699ca09a-083b-4e1b-9bca-6a8c70a1f8e1-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="创建新成员"/>
+        <label name="feature" value="测试操作成员"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236869620" status="passed" stop="1555236869620">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236869620" status="passed" stop="1555236869624">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236869624" status="passed" stop="1555236869788">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236869789" status="passed" stop="1555236869789">
+          <name>获取创建新成员请求参数</name>
+          <title>获取创建新成员请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236869789" status="passed" stop="1555236870287">
+          <name>发出创建新成员的请求</name>
+          <title>发出创建新成员的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236870289" status="failed" stop="1555236870736">
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_read_member</name>
+      <failure>
+        <message>AssertionError: assert '0dkGK@gzdev.com' == '9fYkq@gzdev.com'
+  - 0dkGK@gzdev.com
+  + 9fYkq@gzdev.com</message>
+        <stack-trace>self = &lt;testcase.contacts.test_member.TestDepartment object at 0x111f32710&gt;
+
+    @allure.story("测试读取成员信息")
+    def test_read_member(self):
+        mm = ManageMember()
+        mm.read_member("id_20190414175740")
+        res = mm.get_response()
+&gt;       assert res.get("email") == "9fYkq@gzdev.com"
+E       AssertionError: assert '0dkGK@gzdev.com' == '9fYkq@gzdev.com'
+E         - 0dkGK@gzdev.com
+E         + 9fYkq@gzdev.com
+
+contacts/test_member.py:46: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="322fd951-c9b1-4862-bb81-d8d9a0e9508d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="测试读取成员信息"/>
+        <label name="feature" value="测试操作成员"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236870290" status="passed" stop="1555236870290">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236870290" status="passed" stop="1555236870294">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236870294" status="passed" stop="1555236870471">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236870471" status="passed" stop="1555236870471">
+          <name>获取读取成员请求参数</name>
+          <title>获取读取成员请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236870472" status="passed" stop="1555236870732">
+          <name>发出读取成员的请求</name>
+          <title>发出读取成员的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1555236870738" status="failed" stop="1555236871241">
+      <name>.Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_update_member</name>
+      <failure>
+        <message>AssertionError: assert {'errcode': 4...uery?e=40066'} == {'errcode': 0,...g': 'updated'}
+  Differing items:
+  {'errmsg': 'invalid party list, hint: [1555236871_7_571342e48a099a2b1478efe0f398f941], more info at https://open.work.weixin.qq.com/devtool/query?e=40066'} != {'errmsg': 'updated'}
+  {'errcode': 40066} != {'errcode': 0}
+  Full diff:
+  + {'errcode': 0, 'errmsg': 'updated'}
+  - {'errcode': 40066,
+  -  'errmsg': 'invalid party list, hint: '...
+  
+  ...Full output truncated (3 lines hidden), use '-vv' to show</message>
+        <stack-trace>self = &lt;testcase.contacts.test_member.TestDepartment object at 0x111f39278&gt;
+
+    @allure.story("测试更新成员信息")
+    def test_update_member(self):
+        mm = ManageMember()
+        file_path = "/Users/mac/auto_test/Weixin_InterfaceTest/config/member_data/update_member.yaml"
+        cf = CommonFunction()
+        yaml_data = cf.get_yaml_data(file_path)
+        update_mem_info = yaml_data["new_member_info"]["request"]
+        mm.update_member(update_mem_info)
+        res = mm.get_response()
+&gt;       assert res == yaml_data["new_member_info"]["response"]
+E       AssertionError: assert {'errcode': 4...uery?e=40066'} == {'errcode': 0,...g': 'updated'}
+E         Differing items:
+E         {'errmsg': 'invalid party list, hint: [1555236871_7_571342e48a099a2b1478efe0f398f941], more info at https://open.work.weixin.qq.com/devtool/query?e=40066'} != {'errmsg': 'updated'}
+E         {'errcode': 40066} != {'errcode': 0}
+E         Full diff:
+E         + {'errcode': 0, 'errmsg': 'updated'}
+E         - {'errcode': 40066,
+E         -  'errmsg': 'invalid party list, hint: '...
+E         
+E         ...Full output truncated (3 lines hidden), use '-vv' to show
+
+contacts/test_member.py:57: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="88705c85-c504-4534-8281-952f32f0b5cf-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="测试更新成员信息"/>
+        <label name="feature" value="测试操作成员"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46621-MainThread"/>
+        <label name="host" value="macdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1555236870739" status="passed" stop="1555236870739">
+          <name>获取配置文件路径</name>
+          <title>获取配置文件路径</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236870739" status="passed" stop="1555236870743">
+          <name>获取配置文件内容</name>
+          <title>获取配置文件内容</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236870743" status="passed" stop="1555236870919">
+          <name>判断已经存在的yaml文件中的 access_token 是否有效</name>
+          <title>判断已经存在的yaml文件中的 access_token 是否有效</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236870923" status="passed" stop="1555236870923">
+          <name>获取更新成员请求参数</name>
+          <title>获取更新成员请求参数</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1555236870924" status="passed" stop="1555236871235">
+          <name>发出更新成员的请求</name>
+          <title>发出更新成员的请求</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

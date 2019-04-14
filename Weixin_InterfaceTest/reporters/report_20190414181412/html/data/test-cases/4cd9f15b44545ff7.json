@@ -1,0 +1,157 @@
+{
+  "uid" : "4cd9f15b44545ff7",
+  "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[6]",
+  "fullName" : "testcase..Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[6]",
+  "historyId" : "3f75d0c52d10fa07996d1ea14e3275dd",
+  "time" : {
+    "start" : 1555236869017,
+    "stop" : 1555236869613,
+    "duration" : 596
+  },
+  "description" : "\n        这是测试删除部门的测试用例\n        :param id: 部门id\n        :return: None\n        ",
+  "descriptionHtml" : "<pre><code>    这是测试删除部门的测试用例\n    :param id: 部门id\n    :return: None\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取配置文件路径",
+      "time" : {
+        "start" : 1555236869019,
+        "stop" : 1555236869019,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取配置文件内容",
+      "time" : {
+        "start" : 1555236869019,
+        "stop" : 1555236869023,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "判断已经存在的yaml文件中的 access_token 是否有效",
+      "time" : {
+        "start" : 1555236869023,
+        "stop" : 1555236869238,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取删除部门请求参数",
+      "time" : {
+        "start" : 1555236869239,
+        "stop" : 1555236869239,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "发出删除部门的请求",
+      "time" : {
+        "start" : 1555236869239,
+        "stop" : 1555236869613,
+        "duration" : 374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b73ef1c8291eff3a",
+      "name" : "Captured log call",
+      "source" : "b73ef1c8291eff3a.txt",
+      "type" : "text/plain",
+      "size" : 1425
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试操作部门"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "macdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "删除部门"
+  }, {
+    "name" : "thread",
+    "value" : "46621-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_delete_depa[6]"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cd9f15b44545ff7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,8 @@
+{
+  "testcase/contacts/department/test_creat_department.py::TestCreatDepartment::()::test_creat_depa[\\u4ea7\\u54c1\\u90e8-1-4-4]": true,
+  "testcase/contacts/department/test_creat_department.py::TestCreatDepartment::()::test_creat_depa[\\u6d4b\\u8bd5\\u90e8-1-3-3]": true,
+  "testcase/contacts/department/test_creat_department.py::TestCreatDepartment::()::test_creat_depa[\\u7814\\u53d1\\u90e8-1-5-5]": true,
+  "testcase/contacts/department/test_creat_department.py::TestCreatDepartment::()::test_creat_depa[\\u8d22\\u52a1\\u90e8-1-6-6]": true,
+  "testcase/contacts/test_member.py::TestDepartment::()::test_read_member": true,
+  "testcase/contacts/test_member.py::TestDepartment::()::test_update_member": true
+}

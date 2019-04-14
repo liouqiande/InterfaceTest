@@ -1,0 +1,165 @@
+{
+  "uid" : "4abbf1b7e060aab7",
+  "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_read_member",
+  "fullName" : "testcase..Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_read_member",
+  "historyId" : "bb9a92c6ff975cf619afc61181669669",
+  "time" : {
+    "start" : 1555236870289,
+    "stop" : 1555236870736,
+    "duration" : 447
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '0dkGK@gzdev.com' == '9fYkq@gzdev.com'\n  - 0dkGK@gzdev.com\n  + 9fYkq@gzdev.com",
+  "statusTrace" : "self = <testcase.contacts.test_member.TestDepartment object at 0x111f32710>\n\n    @allure.story(\"测试读取成员信息\")\n    def test_read_member(self):\n        mm = ManageMember()\n        mm.read_member(\"id_20190414175740\")\n        res = mm.get_response()\n>       assert res.get(\"email\") == \"9fYkq@gzdev.com\"\nE       AssertionError: assert '0dkGK@gzdev.com' == '9fYkq@gzdev.com'\nE         - 0dkGK@gzdev.com\nE         + 9fYkq@gzdev.com\n\ncontacts/test_member.py:46: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '0dkGK@gzdev.com' == '9fYkq@gzdev.com'\n  - 0dkGK@gzdev.com\n  + 9fYkq@gzdev.com",
+    "statusTrace" : "self = <testcase.contacts.test_member.TestDepartment object at 0x111f32710>\n\n    @allure.story(\"测试读取成员信息\")\n    def test_read_member(self):\n        mm = ManageMember()\n        mm.read_member(\"id_20190414175740\")\n        res = mm.get_response()\n>       assert res.get(\"email\") == \"9fYkq@gzdev.com\"\nE       AssertionError: assert '0dkGK@gzdev.com' == '9fYkq@gzdev.com'\nE         - 0dkGK@gzdev.com\nE         + 9fYkq@gzdev.com\n\ncontacts/test_member.py:46: AssertionError",
+    "steps" : [ {
+      "name" : "获取配置文件路径",
+      "time" : {
+        "start" : 1555236870290,
+        "stop" : 1555236870290,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取配置文件内容",
+      "time" : {
+        "start" : 1555236870290,
+        "stop" : 1555236870294,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "判断已经存在的yaml文件中的 access_token 是否有效",
+      "time" : {
+        "start" : 1555236870294,
+        "stop" : 1555236870471,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取读取成员请求参数",
+      "time" : {
+        "start" : 1555236870471,
+        "stop" : 1555236870471,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "发出读取成员的请求",
+      "time" : {
+        "start" : 1555236870472,
+        "stop" : 1555236870732,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "caaa8ccbcd0be943",
+      "name" : "Captured log call",
+      "source" : "caaa8ccbcd0be943.txt",
+      "type" : "text/plain",
+      "size" : 1382
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试操作成员"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "macdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "测试读取成员信息"
+  }, {
+    "name" : "thread",
+    "value" : "46621-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_read_member"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4abbf1b7e060aab7.json",
+  "parameterValues" : [ ]
+}

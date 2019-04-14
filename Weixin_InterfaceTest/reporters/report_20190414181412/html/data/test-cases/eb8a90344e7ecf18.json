@@ -1,0 +1,157 @@
+{
+  "uid" : "eb8a90344e7ecf18",
+  "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u4ea7\\u54c1\\u90e8-1-4-4]",
+  "fullName" : "testcase..Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u4ea7\\u54c1\\u90e8-1-4-4]",
+  "historyId" : "a7c6f747ecf0c5f02ffb73622b89619a",
+  "time" : {
+    "start" : 1555236855959,
+    "stop" : 1555236859362,
+    "duration" : 3403
+  },
+  "description" : "\n        这是创建新部门的测试用例\n        :param name: 部门名称\n        :param parentid: 父部门id\n        :param order: 在父部门中的次序值\n        :param id: 部门id\n        :return: None\n        ",
+  "descriptionHtml" : "<pre><code>    这是创建新部门的测试用例\n    :param name: 部门名称\n    :param parentid: 父部门id\n    :param order: 在父部门中的次序值\n    :param id: 部门id\n    :return: None\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取配置文件路径",
+      "time" : {
+        "start" : 1555236855961,
+        "stop" : 1555236855961,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取配置文件内容",
+      "time" : {
+        "start" : 1555236855961,
+        "stop" : 1555236855965,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "判断已经存在的yaml文件中的 access_token 是否有效",
+      "time" : {
+        "start" : 1555236855965,
+        "stop" : 1555236857570,
+        "duration" : 1605
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取创建新部门请求参数",
+      "time" : {
+        "start" : 1555236857571,
+        "stop" : 1555236857571,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "发出创建新部门的请求",
+      "time" : {
+        "start" : 1555236857571,
+        "stop" : 1555236859362,
+        "duration" : 1791
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8db1ea0f9e041d98",
+      "name" : "Captured log call",
+      "source" : "8db1ea0f9e041d98.txt",
+      "type" : "text/plain",
+      "size" : 1457
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试操作部门"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "macdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "创建新部门"
+  }, {
+    "name" : "thread",
+    "value" : "46621-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u4ea7\\u54c1\\u90e8-1-4-4]"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb8a90344e7ecf18.json",
+  "parameterValues" : [ ]
+}

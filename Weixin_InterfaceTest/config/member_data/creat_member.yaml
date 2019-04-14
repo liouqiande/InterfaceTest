@@ -1,0 +1,22 @@
+member_info:
+  request:
+    {
+      "userid": "id",
+      "name": "name",
+      "alias": "member_alias",
+      "mobile": "16013215421",
+      "department": [7],
+      "order":[1],
+      "position": "产品经理",
+      "gender": "1",
+      "email": "member@gzdev.com",
+      "is_leader_in_dept": [1],
+      "enable":1,
+      "telephone": "021-1223456",
+      "address": "广州市海珠区新港中路"
+    }
+  response:
+    {
+      "errcode": 0,
+      "errmsg": "created"
+    }

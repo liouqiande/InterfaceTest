@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'department e...query?e=60008' == 'created'\n  - department existed, hint: [1555236855_1_aa0b4334f322d367ed5208a09054ef25], more info at https://open.work.weixin.qq.com/devtool/query?e=60008\n  + created",
+      "children" : [ {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_department.TestDepartment.test_creat_depa[\\u6d4b\\u8bd5\\u90e8-1-3-3]",
+        "uid" : "1574d9eecd640b62",
+        "parentUid" : "7e731e8fc03489755e8d4eb490fe6f43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555236852835,
+          "stop" : 1555236855957,
+          "duration" : 3122
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e731e8fc03489755e8d4eb490fe6f43"
+    }, {
+      "name" : "AssertionError: assert '0dkGK@gzdev.com' == '9fYkq@gzdev.com'\n  - 0dkGK@gzdev.com\n  + 9fYkq@gzdev.com",
+      "children" : [ {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_read_member",
+        "uid" : "4abbf1b7e060aab7",
+        "parentUid" : "5e5cc961e4bda873460a5e5c54f32eab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555236870289,
+          "stop" : 1555236870736,
+          "duration" : 447
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e5cc961e4bda873460a5e5c54f32eab"
+    }, {
+      "name" : "AssertionError: assert {'errcode': 4...uery?e=40066'} == {'errcode': 0,...g': 'updated'}\n  Differing items:\n  {'errmsg': 'invalid party list, hint: [1555236871_7_571342e48a099a2b1478efe0f398f941], more info at https://open.work.weixin.qq.com/devtool/query?e=40066'} != {'errmsg': 'updated'}\n  {'errcode': 40066} != {'errcode': 0}\n  Full diff:\n  + {'errcode': 0, 'errmsg': 'updated'}\n  - {'errcode': 40066,\n  -  'errmsg': 'invalid party list, hint: '...\n  \n  ...Full output truncated (3 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_update_member",
+        "uid" : "6516745e361d3c6f",
+        "parentUid" : "eaa394bf34b34e6129b9d9b4cfa6753f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1555236870738,
+          "stop" : 1555236871241,
+          "duration" : 503
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eaa394bf34b34e6129b9d9b4cfa6753f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

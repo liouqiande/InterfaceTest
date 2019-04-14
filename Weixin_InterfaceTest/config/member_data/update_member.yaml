@@ -1,0 +1,22 @@
+new_member_info:
+  request:
+    {
+      "userid": "id_20190414175740",
+      "name": "update_name",
+      "alias": "update_alias",
+      "mobile": "13140163299",
+      "department": [4],
+      "order":[2],
+      "position": "产品经理",
+      "gender": "1",
+      "email": "member@gzdev.com",
+      "is_leader_in_dept": [1],
+      "enable":1,
+      "telephone": "021-1223456",
+      "address": "new_address"
+    }
+  response:
+    {
+      "errcode": 0,
+      "errmsg": "updated"
+    }

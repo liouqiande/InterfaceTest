@@ -1,0 +1,29 @@
+# 企业 id（固定不变）
+corp_id: ww876064acebf0fa3c
+
+# token 请求方式及请求地址
+token_url: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+
+# 获取企业微信服务器的ip段（用来判断 token 是否有效）
+ip_url: https://qyapi.weixin.qq.com/cgi-bin/getcallbackip
+
+# 通讯录管理
+contacts:
+  # secret 两小时失效，每次跑用例需要更新此内容
+  secret: A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY
+  # 部门管理
+  department:
+    creat_dep_url: https://qyapi.weixin.qq.com/cgi-bin/department/create
+    update_dep_url: https://qyapi.weixin.qq.com/cgi-bin/department/update
+    delete_dep_url: https://qyapi.weixin.qq.com/cgi-bin/department/delete
+    get_dep_list_url: https://qyapi.weixin.qq.com/cgi-bin/department/list
+  # 成员管理
+  member:
+    creat_mem_url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+    update_mem_url: https://qyapi.weixin.qq.com/cgi-bin/user/update
+    delete_mem_url: https://qyapi.weixin.qq.com/cgi-bin/user/delete
+    get_mem_list: https://qyapi.weixin.qq.com/cgi-bin/user/get
+    batch_delete_mem_url: https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete
+    get_dep_mem_list: https://qyapi.weixin.qq.com/cgi-bin/user/simplelist
+    get_dep_mem_detail: https://qyapi.weixin.qq.com/cgi-bin/user/list
+

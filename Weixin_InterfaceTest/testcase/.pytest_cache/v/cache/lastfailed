@@ -1,0 +1,5 @@
+{
+  "contacts/test_department.py::TestDepartment::()::test_creat_depa[\\u6d4b\\u8bd5\\u90e8-1-3-3]": true,
+  "contacts/test_member.py::TestDepartment::()::test_read_member": true,
+  "contacts/test_member.py::TestDepartment::()::test_update_member": true
+}

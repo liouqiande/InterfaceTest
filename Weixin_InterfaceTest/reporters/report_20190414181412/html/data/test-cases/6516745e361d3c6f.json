@@ -1,0 +1,165 @@
+{
+  "uid" : "6516745e361d3c6f",
+  "name" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_update_member",
+  "fullName" : "testcase..Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_update_member",
+  "historyId" : "973eba5e40101b14ca2cc5a80f4b81a6",
+  "time" : {
+    "start" : 1555236870738,
+    "stop" : 1555236871241,
+    "duration" : 503
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'errcode': 4...uery?e=40066'} == {'errcode': 0,...g': 'updated'}\n  Differing items:\n  {'errmsg': 'invalid party list, hint: [1555236871_7_571342e48a099a2b1478efe0f398f941], more info at https://open.work.weixin.qq.com/devtool/query?e=40066'} != {'errmsg': 'updated'}\n  {'errcode': 40066} != {'errcode': 0}\n  Full diff:\n  + {'errcode': 0, 'errmsg': 'updated'}\n  - {'errcode': 40066,\n  -  'errmsg': 'invalid party list, hint: '...\n  \n  ...Full output truncated (3 lines hidden), use '-vv' to show",
+  "statusTrace" : "self = <testcase.contacts.test_member.TestDepartment object at 0x111f39278>\n\n    @allure.story(\"测试更新成员信息\")\n    def test_update_member(self):\n        mm = ManageMember()\n        file_path = \"/Users/mac/auto_test/Weixin_InterfaceTest/config/member_data/update_member.yaml\"\n        cf = CommonFunction()\n        yaml_data = cf.get_yaml_data(file_path)\n        update_mem_info = yaml_data[\"new_member_info\"][\"request\"]\n        mm.update_member(update_mem_info)\n        res = mm.get_response()\n>       assert res == yaml_data[\"new_member_info\"][\"response\"]\nE       AssertionError: assert {'errcode': 4...uery?e=40066'} == {'errcode': 0,...g': 'updated'}\nE         Differing items:\nE         {'errmsg': 'invalid party list, hint: [1555236871_7_571342e48a099a2b1478efe0f398f941], more info at https://open.work.weixin.qq.com/devtool/query?e=40066'} != {'errmsg': 'updated'}\nE         {'errcode': 40066} != {'errcode': 0}\nE         Full diff:\nE         + {'errcode': 0, 'errmsg': 'updated'}\nE         - {'errcode': 40066,\nE         -  'errmsg': 'invalid party list, hint: '...\nE         \nE         ...Full output truncated (3 lines hidden), use '-vv' to show\n\ncontacts/test_member.py:57: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'errcode': 4...uery?e=40066'} == {'errcode': 0,...g': 'updated'}\n  Differing items:\n  {'errmsg': 'invalid party list, hint: [1555236871_7_571342e48a099a2b1478efe0f398f941], more info at https://open.work.weixin.qq.com/devtool/query?e=40066'} != {'errmsg': 'updated'}\n  {'errcode': 40066} != {'errcode': 0}\n  Full diff:\n  + {'errcode': 0, 'errmsg': 'updated'}\n  - {'errcode': 40066,\n  -  'errmsg': 'invalid party list, hint: '...\n  \n  ...Full output truncated (3 lines hidden), use '-vv' to show",
+    "statusTrace" : "self = <testcase.contacts.test_member.TestDepartment object at 0x111f39278>\n\n    @allure.story(\"测试更新成员信息\")\n    def test_update_member(self):\n        mm = ManageMember()\n        file_path = \"/Users/mac/auto_test/Weixin_InterfaceTest/config/member_data/update_member.yaml\"\n        cf = CommonFunction()\n        yaml_data = cf.get_yaml_data(file_path)\n        update_mem_info = yaml_data[\"new_member_info\"][\"request\"]\n        mm.update_member(update_mem_info)\n        res = mm.get_response()\n>       assert res == yaml_data[\"new_member_info\"][\"response\"]\nE       AssertionError: assert {'errcode': 4...uery?e=40066'} == {'errcode': 0,...g': 'updated'}\nE         Differing items:\nE         {'errmsg': 'invalid party list, hint: [1555236871_7_571342e48a099a2b1478efe0f398f941], more info at https://open.work.weixin.qq.com/devtool/query?e=40066'} != {'errmsg': 'updated'}\nE         {'errcode': 40066} != {'errcode': 0}\nE         Full diff:\nE         + {'errcode': 0, 'errmsg': 'updated'}\nE         - {'errcode': 40066,\nE         -  'errmsg': 'invalid party list, hint: '...\nE         \nE         ...Full output truncated (3 lines hidden), use '-vv' to show\n\ncontacts/test_member.py:57: AssertionError",
+    "steps" : [ {
+      "name" : "获取配置文件路径",
+      "time" : {
+        "start" : 1555236870739,
+        "stop" : 1555236870739,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取配置文件内容",
+      "time" : {
+        "start" : 1555236870739,
+        "stop" : 1555236870743,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "判断已经存在的yaml文件中的 access_token 是否有效",
+      "time" : {
+        "start" : 1555236870743,
+        "stop" : 1555236870919,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取更新成员请求参数",
+      "time" : {
+        "start" : 1555236870923,
+        "stop" : 1555236870923,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "发出更新成员的请求",
+      "time" : {
+        "start" : 1555236870924,
+        "stop" : 1555236871235,
+        "duration" : 311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bd9124ca7f400a98",
+      "name" : "Captured log call",
+      "source" : "bd9124ca7f400a98.txt",
+      "type" : "text/plain",
+      "size" : 1333
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试操作成员"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "macdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "测试更新成员信息"
+  }, {
+    "name" : "thread",
+    "value" : "46621-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : ".Users.mac.auto_test.Weixin_InterfaceTest.testcase.contacts.test_member.TestDepartment.test_update_member"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6516745e361d3c6f.json",
+  "parameterValues" : [ ]
+}
